@@ -14,7 +14,7 @@ body {
 }
 
 body {
-    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'AppleGothic';
 }
 
 .text-vertical-center {
@@ -73,22 +73,23 @@ hr.small {
 
 #sidebar-wrapper {
     position: fixed;
-    z-index: 1000;
-    right: 0;
-    overflow-y: auto;
-    width: 250px;
+    z-index: 1;
+    top:0;
+    left: 0;
+    overflow-x: hidden;
+    width: 0;
     height: 100%;
     -webkit-transition: all .4s ease 0s;
     -moz-transition: all .4s ease 0s;
     -ms-transition: all .4s ease 0s;
     -o-transition: all .4s ease 0s;
     transition: all .4s ease 0s;
-    transform: translateX(250px);
+    transform: translateX(0px);
     background: #222;
 }
 
 .sidebar-nav {
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 250px;
     margin: 0;
@@ -137,11 +138,11 @@ hr.small {
     position: fixed;
     z-index: 1;
     top: 0;
-    right: 0;
+    left: 0;
 }
 
 #sidebar-wrapper.active {
-    right: 250px;
+    left: 0px;
     width: 250px;
     -webkit-transition: all .4s ease 0s;
     -moz-transition: all .4s ease 0s;
@@ -164,7 +165,7 @@ hr.small {
     display: table;
     width: 100%;
     height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    background: url(https://userscontent2.emaze.com/images/b85927f8-83f7-488c-8d1c-3815895f7b8b/0a3577d233b5f9969bbeeb9063bdf866.png) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -183,6 +184,7 @@ hr.small {
 
 .services {
     padding: 50px 0;
+    background: url(../img/0a3577d233b5f9969bbeeb9063bdf866.png) no-repeat center center scroll;
 }
 
 .service-item {
@@ -266,3 +268,4 @@ footer {
     display: none;
     padding: 15px 20px;
 }
+
