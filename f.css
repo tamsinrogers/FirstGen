@@ -1,0 +1,88 @@
+html,
+
+/*Global Styles*/
+body{
+    width: 100%;
+    height: 100%;
+}
+
+body{font-family:'Raleway'; font-size: 15px;
+
+    }
+
+.text-vertical-center{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1{
+    font-size: 4.5em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+.header{
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 700px;
+    background-image:url("http://www.theeverlastinggopstoppers.com/wp-content/uploads/2013/03/american-children.jpg" ); 
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size: cover;
+    text-shadow: 2px 2px 4px white;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: inline-block;
+    color: white;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #111;
+}
+section {
+  display: blank;
+
+}
+.space {
+  display: table;
+  width: 100%;
+  height: 400px;
+  color: #333
+  background-size: cover;
+}
+table, td {
+    border: 3px solid white;
+    padding: 20px;
+    border-spacing: 1px;
+}
+table {
+table-layout: fixed;
+    width: 85%;
+    margin-left: auto;
+margin-right: auto;
+}
+td:hover {
+  background-color: #ffd3b6;
+}
